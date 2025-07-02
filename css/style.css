@@ -49,7 +49,19 @@
 }
 
 /* video */
-.video,.v-l, .v-r{
-    height: 90vh;
+ .video{
+    background-image: url('../images/parallax-lab-image.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} 
 
+/* checkup */
+.things{
+    height: 120vh;
+}
+.things .up{
+    height: 30vh;
+}
+.things .down{
+    height: 90vh;
 }
